@@ -100,7 +100,7 @@ Mon Expert Comptable Prive, "La Fiscalite Applicable aux Residents de la Collect
 
 * **GIN - Guinea:** Corporate income tax rate of 25 percent (previously 35 percent). Bloomberg Tax, "Country Guides - Corporate Tax Rates," accessed November 2023, https://www.bloomberglaw.com/product/tax/toc_view_menu/3380.
 
-* **GLP - Guadeloupe:** As an overseas départements of France, Guadeloupe does not seem to have its own tax system, hence shown as 'N/A,' see Ministere de l'Economie, "Overview of the French Tax System," https://www.impots.gouv.fr/portail/files/media/1_metier/5_international/french_tax_system.pdf.
+* **GLP - Guadeloupe:** As an overseas départements of France, Guadeloupe does not seem to have its own tax system, hence shown as 'N/A,' see Ministere de l'Economie, "French Tax Law," https://www.impots.gouv.fr/sites/default/files/media/3_Documentation/brochures/french_tax_law_brochure_2024.pdf.
 
 * **GMB - Gambia:** Corporate income tax rate of 27 percent. Bloomberg Tax, "Country Guides - Corporate Tax Rates," accessed November 2023, https://www.bloomberglaw.com/product/tax/toc_view_menu/3380.
 
@@ -112,7 +112,7 @@ Mon Expert Comptable Prive, "La Fiscalite Applicable aux Residents de la Collect
 
 * **GTM - Guatemala:** Corporate income tax rate of 25 percent. See PwC, "Worldwide Tax Summaries - Corporate Taxes," 2023, https://taxsummaries.pwc.com/.
 
-* **GUF - French Guiana:** As an overseas départements of France, French Guiana does not seem to have its own tax system, hence shown as 'N/A,' see Ministere de l'Economie, "Overview of the French Tax System," https://www.impots.gouv.fr/portail/files/media/1_metier/5_international/french_tax_system.pdf.
+* **GUF - French Guiana:** As an overseas départements of France, French Guiana does not seem to have its own tax system, hence shown as 'N/A,' see Ministere de l'Economie, "French Tax Law," https://www.impots.gouv.fr/sites/default/files/media/3_Documentation/brochures/french_tax_law_brochure_2024.pdf.
 
 * **GUM - Guam:** Corporate income tax rate of 21 percent. Bloomberg Tax, "Country Guides - Corporate Tax Rates," accessed November 2023, https://www.bloomberglaw.com/product/tax/toc_view_menu/3380.
 
@@ -120,7 +120,8 @@ Mon Expert Comptable Prive, "La Fiscalite Applicable aux Residents de la Collect
 
 * **HMD - Heard Island and McDonald Islands:** Uninhabited external territory of Australia, hence no tax system.
 
-* **IOT - British Indian Ocean Territory:** As an overseas territory of the UK with no permanent population (the only inhabitants of the territory are US and British military personnel and associated contractors), there does not seem to be a tax system, hence shown as 'N/A.'
+* **IOT - British Indian Ocean Territory:** As an overseas territory of the UK with no permanent population (the only inhabitants of the territory are US and British military personnel and associated contractors), there does not seem to be a tax system, hence shown as 'N/A.' See, British Indian Ocean Territory, "Revised Ordinances of the
+British Indian Ocean Territory," https://www.biot.gov.io/wp-content/uploads/The-Taxation-Ord-1981-G.2.pdf.
 
 * **IND - India:** Corporate income tax rate of 30 percent. See PwC, "Worldwide Tax Summaries - Corporate Taxes," 2023, https://taxsummaries.pwc.com/.
 
@@ -170,13 +171,13 @@ Mon Expert Comptable Prive, "La Fiscalite Applicable aux Residents de la Collect
 
 * **MOZ - Mozambique:** Corporate income tax rate of 32 percent. See PwC, "Worldwide Tax Summaries - Corporate Taxes," 2023, https://taxsummaries.pwc.com/.
 
-* **MTQ - Martinique:** As an overseas départements of France, Martinique does not seem to have its own tax system, hence shown as 'N/A,' see Ministere de l'Economie, "Overview of the French Tax System," https://www.impots.gouv.fr/portail/files/media/1_metier/5_international/french_tax_system.pdf.
-
+* **MTQ - Martinique:** As an overseas départements of France, Martinique does not seem to have its own tax system, hence shown as 'N/A,' see Ministere de l'Economie, "French Tax Law," https://www.impots.gouv.fr/sites/default/files/media/3_Documentation/brochures/french_tax_law_brochure_2024.pdf.
+  
 * **MWI - Malawi:** Corporate income tax rate of 30 percent. Bloomberg Tax, "Country Guides - Corporate Tax Rates," accessed November 2023, https://www.bloomberglaw.com/product/tax/toc_view_menu/3380.
 
 * **MYS - Malaysia:** Corporate income tax rate of 24 percent. See PwC, "Worldwide Tax Summaries - Corporate Taxes," 2023, https://taxsummaries.pwc.com/.
 
-* **MYT - Mayotte:** As an overseas départements of France, Mayotte does not seem to have its own tax system, hence shown as 'N/A,' see Ministere de l'Economie, "Overview of the French Tax System," https://www.impots.gouv.fr/portail/files/media/1_metier/5_international/french_tax_system.pdf.
+* **MYT - Mayotte:** As an overseas départements of France, Mayotte does not seem to have its own tax system, hence shown as 'N/A,' see Ministere de l'Economie, "French Tax Law," https://www.impots.gouv.fr/sites/default/files/media/3_Documentation/brochures/french_tax_law_brochure_2024.pdf.
 
 * **NCL - New Caledonia:** Corporate income tax rate of 30 percent. Bloomberg Tax, "Country Guides - Corporate Tax Rates," accessed November 2023, https://www.bloomberglaw.com/product/tax/toc_view_menu/3380.
 
@@ -206,7 +207,7 @@ Mon Expert Comptable Prive, "La Fiscalite Applicable aux Residents de la Collect
 
 * **PYF - French Polynesia:** The standard corporate tax rate for companies is 25PERCENT (reduced from 27PERCENT effective 1 January 2022). See Bloomberg Tax, "Country Guides - Corporate Tax Rates," accessed November 2023, https://www.bloomberglaw.com/product/tax/toc_view_menu/3380.
 
-* **REU - Reunion:** As an overseas départements of France, Reunion does not seem to have its own tax system, hence shown as 'N/A,' see Ministere de l'Economie, "Overview of the French Tax System," https://www.impots.gouv.fr/portail/files/media/1_metier/5_international/french_tax_system.pdf.
+* **REU - Reunion:** As an overseas départements of France, Reunion does not seem to have its own tax system, hence shown as 'N/A,' see Ministere de l'Economie, "French Tax Law," https://www.impots.gouv.fr/sites/default/files/media/3_Documentation/brochures/french_tax_law_brochure_2024.pdf.
 
 * **RUS - Russian Federation:** Corporate income tax rate of 20 percent. Bloomberg Tax, "Country Guides - Corporate Tax Rates," accessed November 2023, https://www.bloomberglaw.com/product/tax/toc_view_menu/3380.
 
