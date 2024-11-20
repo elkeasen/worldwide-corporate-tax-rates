@@ -26,7 +26,7 @@ OECD, "OECD Tax Database, Statutory Corporate Income Tax Rates," updated Novembe
 
 * **AFG - Afghanistan:** Corporate income tax rate of 20 percent. Bloomberg Tax, "Country Guides - Corporate Tax Rates," accessed November 2023, https://www.bloomberglaw.com/product/tax/toc_view_menu/3380.
 
-* **ALA - Aland Islands:** Corporate income tax rate of 20 percent, see Alands landskapsregering, "Beskattning av företag och samfund," updated on Feb. 7, 2018, https://www.regeringen.ax/ekonomi/skattesystemet/beskattning-foretag-samfund and " YB Case Aland Islands", consulted Nov. 2023, https://ybcase.com/en/jurisdictions/alandskie-ostrova.
+* **ALA - Aland Islands:** Corporate income tax rate of 20 percent, see Alands landskapsregering, "Beskattning av företag och samfund," updated on Feb. 7, 2018, https://www.regeringen.ax/ekonomi/skattesystemet/beskattning-foretag-samfund and " YB Case Aland Islands", consulted Nov. 2024, https://ybcase.com/en/jurisdictions/alandskie-ostrova.
 
 * **ANT - Netherlands Antilles:** In 2010, the Netherlands Antilles were split: Curaçao and St Maarten each became separate countries within the Kingdom of the Netherlands and the Islands of Bonaire, Saba and St Eustatia became special municipalities of the Netherlands. As a result, there is no corporate tax rate starting in 2010.
 
@@ -46,9 +46,11 @@ OECD, "OECD Tax Database, Statutory Corporate Income Tax Rates," updated Novembe
 
 * **BGD - Bangladesh:** For non-publicly traded companies (including branch companies) the corporate income tax rate is 27.5 PERCENT (from July 1, 2022; 30 percent previously); See Bloomberg Tax, "Country Guides - Corporate Tax Rates," accessed November 2023, https://www.bloomberglaw.com/product/tax/toc_view_menu/3380.
 
-* **BLM - Saint Barthelemy:** No evidence of a corporate income tax (only lump-sum tax of €350 plus €100 per employee), hence 0 percent rate, see Community of St Barthelemy, "Formulaires de la Collectivité: Fiscalité: Déclaration Contribution Forfaitaire Annuelle des Entreprises - CFAE," https://www.comstbarth.fr/in/rest/annotationSVC/Attachment/attach_cmsUpload_1f046465-8a68-43f8-858a-ad262d540cc9.
+* **BLM - Saint Barthelemy:** No evidence of a corporate income tax (only lump-sum tax of €350 plus €100 per employee), hence 0 percent rate, see Community of St Barthelemy, "Code des Contributions de
+Saint-Barthélemy," https://actes.eservices-comstbarth.fr/PJ/Deliberation%20CT/Deliberation%20CT_2024/2024_038ct_annexe.pdf and
+Mon Expert Comptable Prive, "La Fiscalite Applicable aux Residents de la Collectivite doutre mer de Saint Barthelemy," https://monexpertcomptableprive.fr/2023/11/24/la-fiscalite-applicable-aux-residents-de-la-collectivite-doutre-mer-de-saint-barthelemy/.
 
-* **BLR - Belarus:** Corporate income tax rate of 20 (18 percent in 2022). Bloomberg Tax, "Country Guides - Corporate Tax Rates," accessed November 2023, https://www.bloomberglaw.com/product/tax/toc_view_menu/3380.
+* **BLR - Belarus:** Corporate income tax rate of 25 (20 percent in 2023 and 18 in 2022). Bloomberg Tax, "Country Guides - Corporate Tax Rates," accessed November 2024, https://www.bloomberglaw.com/product/tax/toc_view_menu/3380.
 
 * **BLZ - Belize:** The corporate tax rate in Belize is 40PERCENT but as this rate applies only to the petroleum industry, the corporate tax rate in Belize has been included in this database as 0 PERCENT (since 2020) to ensure consistency of treatment across all jurisdictions. See OECD, "OECD Corporate Tax Statistics, Statutory Corporate Income Tax Rates," updated November 2023, https://stats.oecd.org/index.aspx?DataSet and OECD, "“Corporate Tax Statistics 2023”, November 2023, https://doi.org/10.1787/f1f07219-en. Since 1999 Belize has also a gross receipts tax, see Income Tax Department, "The Business Tax," http://incometaxbelize.gov.bz/wp-content/uploads/2016/07/business_tax_guide2009.pdf.
 
@@ -61,7 +63,6 @@ OECD, "OECD Tax Database, Statutory Corporate Income Tax Rates," updated Novembe
 * **CAF - Central African Republic:** Corporate income tax rate of 30 percent. Bloomberg Tax, "Country Guides - Corporate Tax Rates," accessed November 2023, https://www.bloomberglaw.com/product/tax/toc_view_menu/3380.
 
 * **CCK - Cocos (Keeling) Islands:** As an external territory of Australia, the Cocos (Keeling) Islands are subject to the Australian tax system (except there is no goods and services tax (GST)), hence shown as 'N/A,' see Australian Government: Department of Infrastructure, Transport, Cities and Regional Development, "Cocos (Keeling) Islands," https://www.infrastructure.gov.au/territories-regions-cities/territories/indian-ocean-territories/cocos-keeling-islands/governance-administration.
- 
 
 * **COM - Comoros:** Corporate income tax rate of 35 percent (regular rate of 35 percent and top rate of 50 percent for businesses with turnover above KMF 500 million), see Bloomberg Tax, "Country Guides: Comoros," https://www.bloomberglaw.com/product/tax/document/25590833704 and Comoros National Investment Promotion Agency, "About Country," http://www.comesaria.org/site/en/comoros.17.html.
 
@@ -85,7 +86,7 @@ OECD, "OECD Tax Database, Statutory Corporate Income Tax Rates," updated Novembe
 
 * **ETH - Ethiopia:** Corporate income tax rate of 30 percent. Bloomberg Tax, "Country Guides - Corporate Tax Rates," accessed November 2023, https://www.bloomberglaw.com/product/tax/toc_view_menu/3380.
 
-* **FJI - Fiji:** Corporate income tax rate of 20 percent. See PwC, "Worldwide Tax Summaries - Corporate Taxes," 2023, https://taxsummaries.pwc.com/.
+* **FJI - Fiji:** Corporate income tax rate of 25 percent, effective from 2023 (20 percent previously). See PwC, "Worldwide Tax Summaries - Corporate Taxes," 2024, https://taxsummaries.pwc.com/.
 
 * **FLK - Falkland Islands (Malvinas):** Corporate income tax rate of 26 percent. Bloomberg Tax, "Country Guides - Corporate Tax Rates," accessed November 2023, https://www.bloomberglaw.com/product/tax/toc_view_menu/3380.
 
@@ -209,7 +210,7 @@ OECD, "OECD Tax Database, Statutory Corporate Income Tax Rates," updated Novembe
 
 * **RUS - Russian Federation:** Corporate income tax rate of 20 percent. Bloomberg Tax, "Country Guides - Corporate Tax Rates," accessed November 2023, https://www.bloomberglaw.com/product/tax/toc_view_menu/3380.
 
-* **RWA - Rwanda:** Corporate income tax rate of 30 percent. See PwC, "Worldwide Tax Summaries - Corporate Taxes," 2023, https://taxsummaries.pwc.com/.
+* **RWA - Rwanda:** Corporate income tax rate of 28 percent (reduced from 30 percent from January 2024). See PwC, "Worldwide Tax Summaries - Corporate Taxes," 2024, https://taxsummaries.pwc.com/.
 
 * **SDN - Sudan:** Corporate income tax rate of 35 percent. Bloomberg Tax, "Country Guides - Corporate Tax Rates," accessed November 2023, https://www.bloomberglaw.com/product/tax/toc_view_menu/3380.
 
@@ -237,13 +238,13 @@ OECD, "OECD Tax Database, Statutory Corporate Income Tax Rates," updated Novembe
 
 * **SXM - Sint Maarten (Dutch part):** Corporate income tax rate of 34.5PERCENT, see Bloomberg Tax, "Country Guides - Corporate Tax Rates," accessed November 2023, https://www.bloomberglaw.com/product/tax/toc_view_menu/3380.
 
-* **SYR - Syrian Arab Republic:** Corporate income tax rate of 28 percent. Bloomberg Tax, "Country Guides - Corporate Tax Rates," accessed November 2023, https://www.bloomberglaw.com/product/tax/toc_view_menu/3380.
+* **SYR - Syrian Arab Republic:** Corporate income tax rate of 25 percent (reduced from 28 percent, effective from January 1, 2024). Bloomberg Tax, "Country Guides - Corporate Tax Rates," accessed November 2024, https://www.bloomberglaw.com/product/tax/toc_view_menu/3380.
 
 * **TCD - Chad:** Corporate income tax rate of 35 percent, see PwC, "Worldwide Tax Summaries - Corporate Taxes," 2023, https://taxsummaries.pwc.com/.
 
 * **TJK - Tajikistan:** Starting from 1 January 2022 the general corporate income tax rate is Tajikistan was reduced from 23PERCENT to 18PERCENT. See PwC, "Worldwide Tax Summaries - Corporate Taxes," 2023, https://taxsummaries.pwc.com/tajikistan/corporate/significant-developments.
 
-* **TKL - Tokelau:** There is no corporate income tax in Tokelau, hence shown as 0 percent, see OECD, “Corporate Tax Statistics 2023”, November 2023, page 20, note 3, https://doi.org/10.1787/f1f07219-en.
+* **TKL - Tokelau:** There is no corporate income tax in Tokelau, hence shown as 0 percent, see OECD, “Corporate Tax Statistics 2024”, July 2024, page 19, note 3, https://doi.org/10.1787/9c27d6e8-en.
 
 * **TKM - Turkmenistan:** Corporate income tax rate of 8 percent. Bloomberg Tax, "Country Guides - Corporate Tax Rates," accessed November 2023, https://www.bloomberglaw.com/product/tax/toc_view_menu/3380.
 
