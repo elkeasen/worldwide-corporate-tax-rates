@@ -65,6 +65,12 @@ all_years_preliminary[c("2024")][all_years_preliminary$iso_3 == "BTN",] <- 25
 #CAF - Central African Republic
 all_years_preliminary[c("2024")][all_years_preliminary$iso_3 == "CAF",] <- 30
 
+#CAN - Canada OECD correction
+all_years_preliminary[c("2020")][all_years_preliminary$iso_3 == "CAN",] <- 26.25
+all_years_preliminary[c("2021")][all_years_preliminary$iso_3 == "CAN",] <- 26.17
+all_years_preliminary[c("2022")][all_years_preliminary$iso_3 == "CAN",] <- 26.12
+all_years_preliminary[c("2023")][all_years_preliminary$iso_3 == "CAN",] <- 26.14
+
 #CHL - Chile
 #all_years_preliminary[c("2022")][all_years_preliminary$iso_3 == "CHL",] <- 27
 
@@ -97,6 +103,12 @@ all_years_preliminary[c("2024")][all_years_preliminary$iso_3 == "CUB",] <- 35
 
 #CYP - Cyprus
 all_years_preliminary[c("2024")][all_years_preliminary$iso_3 == "CYP",] <- 12.5
+
+#DEU - Germany OECD correction
+all_years_preliminary[c("2020")][all_years_preliminary$iso_3 == "DEU",] <- 29.94
+all_years_preliminary[c("2021")][all_years_preliminary$iso_3 == "DEU",] <- 29.83
+all_years_preliminary[c("2022")][all_years_preliminary$iso_3 == "DEU",] <- 29.94
+all_years_preliminary[c("2023")][all_years_preliminary$iso_3 == "DEU",] <- 29.93
 
 #DJI - Djibouti
 #all_years_preliminary[c("2022")][all_years_preliminary$iso_3 == "DJI",] <- 25
@@ -204,6 +216,9 @@ all_years_preliminary[c("2024")][all_years_preliminary$iso_3 == "KIR",] <- 30
 
 #KNA - Saint Kitts and Nevis
 #all_years_preliminary[c("2022")][all_years_preliminary$iso_3 == "KNA",] <- 33
+
+#KOR - Republic of Korea
+all_years_preliminary[c("2023")][all_years_preliminary$iso_3 == "KOR",] <- 26.4
 
 #KWT - Kuwait
 all_years_preliminary[c("2024")][all_years_preliminary$iso_3 == "KWT",] <- 15
