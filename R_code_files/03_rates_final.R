@@ -217,7 +217,7 @@ all_years_preliminary[c("2024")][all_years_preliminary$iso_3 == "KIR",] <- 30
 #KNA - Saint Kitts and Nevis
 #all_years_preliminary[c("2022")][all_years_preliminary$iso_3 == "KNA",] <- 33
 
-#KOR - Republic of Korea
+#KOR - Republic of Korea OECD correction
 all_years_preliminary[c("2023")][all_years_preliminary$iso_3 == "KOR",] <- 26.4
 
 #KWT - Kuwait
