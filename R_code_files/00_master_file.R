@@ -6,11 +6,11 @@ gc()
 
 #Directory Variables####
 #setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
-R_code_files<-"C:/Github/worldwide-corporate-tax-rates/R_code_files/"
-source_data<-"C:/Github/worldwide-corporate-tax-rates/source_data/"
-intermediate_outputs<-"C:/Github/worldwide-corporate-tax-rates/intermediate_outputs/"
-final_data<-"C:/Github/worldwide-corporate-tax-rates/final_data/"
-final_outputs<-"C:/Github/worldwide-corporate-tax-rates/final_outputs/"
+R_code_files<-"C:/Users/acer/Documents/GitHub/worldwide-corporate-tax-rates/R_code_files/"
+source_data<-"C:/Users/acer/Documents/GitHub/worldwide-corporate-tax-rates/source_data/"
+intermediate_outputs<-"C:/Users/acer/Documents/GitHub/worldwide-corporate-tax-rates/intermediate_outputs/"
+final_data<-"C:/Users/acer/Documents/GitHub/worldwide-corporate-tax-rates/final_data/"
+final_outputs<-"C:/Users/acer/Documents/GitHub/worldwide-corporate-tax-rates/final_outputs/"
 
 
 #Define Using function####
