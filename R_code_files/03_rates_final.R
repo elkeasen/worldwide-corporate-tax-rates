@@ -96,7 +96,7 @@ all_years_preliminary[c("2024")][all_years_preliminary$iso_3 == "COM",] <- 50
 #all_years_preliminary[c("2020")][all_years_preliminary$iso_3 == "CPV",] <- 22.44
 #all_years_preliminary[c("2021")][all_years_preliminary$iso_3 == "CPV",] <- 22.44
 #all_years_preliminary[c("2022")][all_years_preliminary$iso_3 == "CPV",] <- 22.44
-#all_years_preliminary[c("2023")][all_years_preliminary$iso_3 == "CPV",] <- 22.44
+all_years_preliminary[c("2024")][all_years_preliminary$iso_3 == "CPV",] <- 21.42
 
 #CUB - Cuba
 all_years_preliminary[c("2024")][all_years_preliminary$iso_3 == "CUB",] <- 35
@@ -147,7 +147,7 @@ all_years_preliminary[c("2024")][all_years_preliminary$iso_3 == "FSM",] <- 30
 all_years_preliminary[c("2024")][all_years_preliminary$iso_3 == "GHA",] <- 25
 
 #GIB - Gibraltar
-#all_years_preliminary[c("2022")][all_years_preliminary$iso_3 == "GIB",] <- 12.5
+all_years_preliminary[c("2024")][all_years_preliminary$iso_3 == "GIB",] <- 15
 
 #GIN - Guinea
 all_years_preliminary[c("2024")][all_years_preliminary$iso_3 == "GIN",] <- 25
@@ -253,7 +253,7 @@ all_years_preliminary[c("2024")][all_years_preliminary$iso_3 == "MAC",] <- 12
 all_years_preliminary[c("2024")][all_years_preliminary$iso_3 == "MAF",] <- 20
 
 #MAR - Morocco
-#all_years_preliminary[c("2022")][all_years_preliminary$iso_3 == "MAR",] <- 31
+all_years_preliminary[c("2024")][all_years_preliminary$iso_3 == "MAR",] <- 33
 
 #MCO - Monaco
 #all_years_preliminary[c("2022")][all_years_preliminary$iso_3 == "MCO",] <- 25
@@ -475,3 +475,27 @@ all_years_final <- all_years_preliminary
 
 #Write final corporate tax rate data
 write.csv(all_years_final,"intermediate_outputs/rates_final.csv")
+
+#Merge final corporate tax rate data with minimum tax data####
+
+#Save pillar two data in Pillar_two_min
+pillar_two_min <- pillar_two
+
+#For countries that  approved QDMTT change the value to 15% if not 0%
+pillar_two_min$'2024_QDMTT'<- if_else(pillar_two_min$'2024_QDMTT' == "Yes",15,0)
+pillar_two_min <- pillar_two_min[, c("iso_3", "2024_QDMTT")]
+
+#In All years final min save all final corporate tax rate data & 2024 rates taking into consideration the Min tax
+all_years_final_min <- merge(all_years_final, pillar_two_min, by="iso_3", all=T)
+all_years_final_min$"2024_QDMTT"<- as.numeric (all_years_final_min$"2024_QDMTT")
+all_years_final_min$"2024"<- as.numeric (all_years_final_min$"2024")
+all_years_final_min$"2024_QDMTT"<- if_else (all_years_final_min$"2024">= all_years_final_min$"2024_QDMTT", all_years_final_min$"2024",all_years_final_min$"2024_QDMTT")
+all_years_final_min$"2024_QDMTT"<- if_else (is.na(all_years_final_min$"2024_QDMTT"), all_years_final_min$"2024", all_years_final_min$"2024_QDMTT")
+
+#Rename columns
+colnames(all_years_final_min)[colnames(all_years_final_min)=="2024_QDMTT"] <- "2024_min"
+
+#all_years_final_min$"dif"<- all_years_final_min$"2024_min"-all_years_final_min$"2024"
+
+#Write final corporate tax rate data taking into account QDMTT
+write.csv(all_years_final_min,"intermediate_outputs/rates_final_min.csv")

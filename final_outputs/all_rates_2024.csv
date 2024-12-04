@@ -34,7 +34,7 @@
 "BGR","Bulgaria","EU",10
 "BFA","Burkina Faso","AF",27.5
 "BDI","Burundi","AF",30
-"CPV","Cabo Verde","AF",22.44
+"CPV","Cabo Verde","AF",21.42
 "KHM","Cambodia","AS",20
 "CMR","Cameroon","AF",33
 "CAN","Canada","NO",26.14
@@ -79,7 +79,7 @@
 "GEO","Georgia","AS",15
 "DEU","Germany","EU",29.927068
 "GHA","Ghana","AF",25
-"GIB","Gibraltar","EU",12.5
+"GIB","Gibraltar","EU",15
 "GRC","Greece","EU",22
 "GRL","Greenland","NO",26.5
 "GRD","Grenada","NO",28
@@ -134,7 +134,7 @@
 "MNG","Mongolia","AS",25
 "MNE","Montenegro","EU",15
 "MSR","Montserrat","NO",30
-"MAR","Morocco","AF",32
+"MAR","Morocco","AF",33
 "MOZ","Mozambique","AF",32
 "MMR","Myanmar","AS",22
 "NAM","Namibia","AF",32

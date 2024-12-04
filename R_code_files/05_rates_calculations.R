@@ -94,6 +94,7 @@ rate_changes <- rate_changes[order(rate_changes$Continent, rate_changes$Country)
 
 write.csv(rate_changes, "final_outputs/rate_changes.csv")
 
+#Table showing rate changes between 2023 and 2024_min####
 
 #Top, Bottom, and Zero Rates
 
@@ -136,6 +137,8 @@ colnames(bottomrate)[colnames(bottomrate)=="rate"] <- "Rate"
 
 bottomrate <- bottomrate[order(bottomrate$Rate, bottomrate$Country),]
 
+#bottom with 2024_min####
+
 #zero
 zerorate <- arrange(data2024_gdp_mis, rate)
 zerorate <- subset(zerorate, rate==0)
@@ -159,7 +162,7 @@ zerorate <- zerorate[order(zerorate$Country),]
 write.csv(toprate, "final_outputs/top_rates.csv")
 write.csv(bottomrate, "final_outputs/bottom_rates.csv")
 write.csv(zerorate, "final_outputs/zero_rates.csv")
-
+# print bottom rates with 2024 min####
 
 #Regional distribution###
 

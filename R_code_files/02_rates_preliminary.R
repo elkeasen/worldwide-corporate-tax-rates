@@ -168,4 +168,32 @@ previous_years <- subset(previous_years, select = -c(...1))
 all_years_preliminary <- merge(oecd_data_2024, previous_years, by="iso_3", all=T)
 all_years_preliminary <- all_years_preliminary[, c("iso_2", "iso_3", "continent", "country", 1980, 1981, 1982, 1983, 1984, 1985, 1986, 1987, 1988, 1989, 1990, 1991, 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024)]
 
+#Read in Pillar Two data
+pillar_two <- read_excel("source_data/2024_PWC_PillarII.xlsx")
+#Keep and rename selected columns
+pillar_two <- pillar_two[,-c(7:12)]
+pillar_two <- pillar_two[,-c(1:1)]
+colnames(pillar_two)[colnames(pillar_two)=="Territory"] <- "country"
+
+#Change country names to match official ISO-names
+pillar_two$country[pillar_two$country == "Cape Verde"] <- "Cabo Verde"
+pillar_two$country[pillar_two$country == "Czech Republic"] <- "Czechia"
+pillar_two$country[pillar_two$country == "DR Congo"] <- "Democratic Republic of the Congo"
+pillar_two$country[pillar_two$country == "Eswatini"] <- "Swaziland"
+pillar_two$country[pillar_two$country == "Hong Kong SAR, China"] <-  "China, Hong Kong Special Administrative Region"
+pillar_two$country[pillar_two$country == "Moldova"] <- "Republic of Moldova"
+pillar_two$country[pillar_two$country == "North Macedonia"] <- "The former Yugoslav Republic of Macedonia"
+pillar_two$country[pillar_two$country == "Republic of Congo"] <- "Congo"
+pillar_two$country[pillar_two$country == "South Korea"] <- "Republic of Korea"
+pillar_two$country[pillar_two$country == "United Kingdom"] <- "United Kingdom of Great Britain and Northern Ireland"
+
+pillar_two$country[pillar_two$country =="United States"] <- "United States of America"
+pillar_two$country[pillar_two$country == "Vietnam"] <- "Viet Nam"
+pillar_two$country[pillar_two$country =="Kosovo"] <- "Kosovo, Republic of"
+
+#Merge Pillar Two data with iso-codes
+pillar_two <- merge(country_iso_cont, pillar_two, by="country")
+#Write Pillar Two data
+write.csv(pillar_two,"intermediate_outputs/pillar_two.csv")
+
 write.csv(all_years_preliminary,"intermediate_outputs/rates_preliminary.csv")
