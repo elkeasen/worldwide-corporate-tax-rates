@@ -370,6 +370,9 @@ all_years_preliminary[c("2024")][all_years_preliminary$iso_3 == "SUR",] <- 36
 #SVK - Slovakia
 all_years_preliminary[c("2024")][all_years_preliminary$iso_3 == "SVK",] <- 21
 
+#SWZ - Swaziland
+all_years_preliminary[c("2024")][all_years_preliminary$iso_3 == "SWZ",] <- 25
+
 #SXM - Sint Maarten (Dutch part)
 all_years_preliminary[c("2024")][all_years_preliminary$iso_3 == "SXM",] <- 34.5
 
@@ -478,9 +481,6 @@ write.csv(all_years_final,"intermediate_outputs/rates_final.csv")
 
 #Merge final corporate tax rate data with minimum tax data####
 
-#Save pillar two data in Pillar_two_min
-pillar_two_min <- pillar_two
-
 #For countries that  approved QDMTT change the value to 15% if not 0%
 pillar_two_min$'2024_QDMTT'<- if_else(pillar_two_min$'2024_QDMTT' == "Yes",15,0)
 pillar_two_min <- pillar_two_min[, c("iso_3", "2024_QDMTT")]
@@ -495,7 +495,49 @@ all_years_final_min$"2024_QDMTT"<- if_else (is.na(all_years_final_min$"2024_QDMT
 #Rename columns
 colnames(all_years_final_min)[colnames(all_years_final_min)=="2024_QDMTT"] <- "2024_min"
 
-#all_years_final_min$"dif"<- all_years_final_min$"2024_min"-all_years_final_min$"2024"
+#Merge all years final min with Pillar Two Data in all years final_min_PII
+all_years_final_min_PII <- merge(all_years_final_min, pillar_two, by="iso_3", all=T)
 
-#Write final corporate tax rate data taking into account QDMTT
-write.csv(all_years_final_min,"intermediate_outputs/rates_final_min.csv")
+#Rename and keep only columns that are needed
+all_years_final_min_PII <- all_years_final_min_PII[,-c(51:52)]
+colnames(all_years_final_min_PII)[colnames(all_years_final_min_PII)=="continent.x"] <- "continent"
+colnames(all_years_final_min_PII)[colnames(all_years_final_min_PII)=="country.x"] <- "country"
+
+#Write final corporate tax rate data taking into account the Min Tax + Pillar Two implementation
+write.csv(all_years_final_min_PII,"intermediate_outputs/rates_final_GMT_PII.csv")
+
+#keep data for 2024, 2024 Tax Rate Accounting for Global Minimum Tax, And Pillar Two data
+all_data_2024 <- all_years_final_min_PII[,-c(5:48)]
+all_data_2024 <- all_data_2024[,-c(2:2)]
+all_data_2024$"2024_IIR"<- if_else ( is.na(all_data_2024$"2024_IIR"),"No", all_data_2024$"2024_IIR")
+all_data_2024$"2024_UTPR"<- if_else ( is.na(all_data_2024$"2024_UTPR"),"No", all_data_2024$"2024_UTPR")
+all_data_2024$"2024_QDMTT"<- if_else ( is.na(all_data_2024$"2024_QDMTT"),"No", all_data_2024$"2024_QDMTT")
+colnames(all_data_2024)[colnames(all_data_2024)=="country"] <- "Country"
+colnames(all_data_2024)[colnames(all_data_2024)=="iso_3"] <- "ISO 3"
+colnames(all_data_2024)[colnames(all_data_2024)=="continent"] <- "Continent"
+colnames(all_data_2024)[colnames(all_data_2024)=="2024_IIR"] <- "Income Inclusion Rule (IIR)"
+colnames(all_data_2024)[colnames(all_data_2024)=="2024_UTPR"] <- "Undertaxed Profits Rule (UTPR)"
+colnames(all_data_2024)[colnames(all_data_2024)=="2024_QDMTT"] <- "Qualified Domestic Minimum Top-up Tax (QDMTT)"
+colnames(all_data_2024)[colnames(all_data_2024)=="2024"] <- "Corporate Tax Rate"
+colnames(all_data_2024)[colnames(all_data_2024)=="2024_min"] <- "Tax Rate Accounting for Global Minimum Tax"
+
+#Write all 2024 data for the Appendix and Website####
+write.csv(all_data_2024,"final_outputs/all_data_2024.csv")
+
+#Replace NA with "No" and Rename Columns for Pillar Two
+pillar_two$"2024_IIR"<- if_else ( is.na(pillar_two$"2024_IIR"),"No", pillar_two$"2024_IIR")
+pillar_two$"2024_UTPR"<- if_else ( is.na(pillar_two$"2024_UTPR"),"No", pillar_two$"2024_UTPR")
+pillar_two$"2024_QDMTT"<- if_else ( is.na(pillar_two$"2024_QDMTT"),"No", pillar_two$"2024_QDMTT")
+colnames(pillar_two)[colnames(pillar_two)=="country"] <- "Country"
+colnames(pillar_two)[colnames(pillar_two)=="iso_3"] <- "ISO 3"
+colnames(pillar_two)[colnames(pillar_two)=="continent"] <- "Continent"
+colnames(pillar_two)[colnames(pillar_two)=="2024_IIR"] <- "Income Inclusion Rule (IIR)"
+colnames(pillar_two)[colnames(pillar_two)=="2024_UTPR"] <- "Undertaxed Profits Rule (UTPR)"
+colnames(pillar_two)[colnames(pillar_two)=="2024_QDMTT"] <- "Qualified Domestic Minimum Top-up Tax (QDMTT)"
+
+#Write Pillar Two data for MAP####
+write.csv(pillar_two,"final_outputs/pillar_two_map.csv")
+
+#Save Global min tax for 2024 in data2024_min
+data2024_min <- all_years_final_min_PII[, c("iso_2","iso_3","continent","country","2024_min")]
+colnames(data2024_min)[colnames(data2024_min)=="2024_min"] <- "2024"

@@ -32,6 +32,9 @@ complete_data$gdp <- as.numeric(complete_data$gdp)
 data2024 <- subset(complete_data, year==2024, select = c(iso_3, continent, country, year, rate, gdp, oecd, eu27, gseven, gtwenty, brics))
 write.csv(data2024, "final_data/final_data_2024.csv")
 
+data2024_min <- subset(complete_data, year=="2024_min", select = c(iso_3, continent, country, year, rate, gdp, oecd, eu27, gseven, gtwenty, brics))
+write.csv(data2024_min, "final_data/final_data_2024_min.csv")
+
 #Creating the 2024 dataset that includes countries with missing gdp data as well
 data2024_gdp_mis <- subset(final_data, year==2024, select = c(iso_3, continent, country, year, rate, gdp, oecd, eu27, gseven, gtwenty, brics))
 data2024_gdp_mis <- subset(data2024_gdp_mis, !is.na(data2024_gdp_mis$rate))

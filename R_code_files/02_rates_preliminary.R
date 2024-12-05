@@ -192,7 +192,14 @@ pillar_two$country[pillar_two$country == "Vietnam"] <- "Viet Nam"
 pillar_two$country[pillar_two$country =="Kosovo"] <- "Kosovo, Republic of"
 
 #Merge Pillar Two data with iso-codes
-pillar_two <- merge(country_iso_cont, pillar_two, by="country")
+pillar_two <- merge(country_iso_cont, pillar_two, by="country", all=T)
+pillar_two <- pillar_two[,-c(2:2)]
+pillar_two$"Joined the Pillar Two Statement" <- as.character(pillar_two$"Joined the Pillar Two Statement")
+pillar_two$'Joined the Pillar Two Statement'<- if_else ( is.na(pillar_two$'Joined the Pillar Two Statement'),"No", pillar_two$'Joined the Pillar Two Statement')
+
+#Save Pillar Two data to calculate Global Min
+pillar_two_min <- pillar_two
+
 #Write Pillar Two data
 write.csv(pillar_two,"intermediate_outputs/pillar_two.csv")
 
