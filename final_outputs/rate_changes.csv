@@ -1,13 +1,18 @@
-"","ISO_3","Country","Continent","2023 Tax Rate","2024 Tax Rate","Change from 2023 to 2024"
-"53","CPV","Cabo Verde","Africa",22.44,21.42,-1.02
-"139","MAR","Morocco","Africa",32,33,1
-"192","RWA","Rwanda","Africa",30,28,-2
-"216","SYR","Syrian Arab Republic","Asia",28,25,-3
-"17","AUT","Austria","Europe",24,23,-1
-"30","BLR","Belarus","Europe",20,25,5
-"60","CZE","Czechia","Europe",19,21,2
-"85","GIB","Gibraltar","Europe",12.5,15,2.5
-"111","ISL","Iceland","Europe",20,21,1
-"211","SVN","Slovenia","Europe",19,22,3
-"35","BRB","Barbados","North America",5.5,9,3.5
-"75","FJI","Fiji","Oceania",20,25,5
+"","ISO_3","Country","Continent","2023 Tax Rate","2024 Tax Rate","2024 Tax Rate Accounting for Global Minimum Tax","Change from 2023 to 2024"
+"53","CPV","Cabo Verde","Africa",22.44,21.42,21.42,-1.02
+"139","MAR","Morocco","Africa",32,33,33,1
+"192","RWA","Rwanda","Africa",30,28,28,-2
+"213","SWZ","Swaziland","Africa",27.5,25,25,-2.5
+"216","SYR","Syrian Arab Republic","Asia",28,25,25,-3
+"17","AUT","Austria","Europe",24,23,23,-1
+"30","BLR","Belarus","Europe",20,25,25,5
+"25","BGR","Bulgaria","Europe",10,10,15,5
+"60","CZE","Czechia","Europe",19,21,21,2
+"85","GIB","Gibraltar","Europe",12.5,15,15,2.5
+"103","HUN","Hungary","Europe",9,9,15,6
+"111","ISL","Iceland","Europe",20,21,21,1
+"108","IRL","Ireland","Europe",12.5,12.5,15,2.5
+"131","LIE","Liechtenstein","Europe",12.5,12.5,15,2.5
+"211","SVN","Slovenia","Europe",19,22,22,3
+"35","BRB","Barbados","North America",5.5,9,15,9.5
+"75","FJI","Fiji","Oceania",20,25,25,5

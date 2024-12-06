@@ -473,7 +473,7 @@ all_years_preliminary[c("2024")][all_years_preliminary$iso_3 == "YEM",] <- 20
 #ZWE - Zimbabwe (includes 3% surtax)
 all_years_preliminary[c("2024")][all_years_preliminary$iso_3 == "ZWE",] <- 24.72
 
-#Define final corporate tax rate data###
+#Define final corporate tax rate data####
 all_years_final <- all_years_preliminary
 
 #Write final corporate tax rate data
@@ -521,7 +521,7 @@ colnames(all_data_2024)[colnames(all_data_2024)=="2024_QDMTT"] <- "Qualified Dom
 colnames(all_data_2024)[colnames(all_data_2024)=="2024"] <- "Corporate Tax Rate"
 colnames(all_data_2024)[colnames(all_data_2024)=="2024_min"] <- "Tax Rate Accounting for Global Minimum Tax"
 
-#Write all 2024 data for the Appendix and Website####
+#Write all 2024 data: 2024 rate, 2024 Tax Rate Accounting for Global Minimum Tax, And Pillar Two data for the Appendix and Website####
 write.csv(all_data_2024,"final_outputs/all_data_2024.csv")
 
 #Replace NA with "No" and Rename Columns for Pillar Two
