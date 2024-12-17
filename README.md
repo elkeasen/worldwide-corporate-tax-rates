@@ -65,7 +65,7 @@ Location of **final output** files of .R code file including
   
 - `final_data_2024_gdp_incomplete.csv` Statutory corporate income tax rates and GDP levels of countries paired with ISO country codes, continents, and country groups for the year 2024. Includes all countries for which we have data for the corporate income tax rate, including countries for which we do not have GDP data.
 
-  - `final_data_2024_min_gdp_incomplete.csv` 2024 tax rate accounting for global minimum tax and GDP levels of countries paired with ISO country codes, continents, and country groups for the year 2024. Includes all countries for which we have data for the corporate income tax rate, including countries for which we do not have GDP data.
+- `final_data_2024_min_gdp_incomplete.csv` 2024 tax rate accounting for global minimum tax and GDP levels of countries paired with ISO country codes, continents, and country groups for the year 2024. Includes all countries for which we have data for the corporate income tax rate, including countries for which we do not have GDP data.
 
 - `final_data_long.csv` Statutory corporate income tax rates and GDP levels of all countries paired with ISO country codes, continents, and country groups for the years 1980 to 2024. Includes all countries that have an ISO country code, including the ones for which corporate income tax rates and/or GDP data was not available. In long format.
   
