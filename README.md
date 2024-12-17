@@ -96,6 +96,6 @@ Location of **output tables** that are included in the publication (either as ta
 
 - `top_rates.csv` Table of the 20 countries with the highest corporate income tax rates in the world in 2024.
 
-- `year_count.csv` Table showing the number of countries for which the dataset includes a corporate income tax rate in each year. (This is an appendix chart in the report.)
+- `year_count.csv` Table showing the number of countries for which the dataset includes a corporate income tax rate in each year.
 
 - `zero_rates.csv` Table of countries without a corporate income tax in 2024, nor a global minimum tax.
